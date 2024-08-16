@@ -1,0 +1,31 @@
+{
+  "name": "NIKI BOT",
+  "description": "Javascript WhatsApp bot made by VIHANGA HANSANA",
+  "logo": "https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },  
+
+    "ALIVE_IMG": {
+      "description": "https://telegra.ph/file/a6613fc154a69d1ce94d4.jpg",
+      "required": true
+    },
+    
+    "ALIVE_MSG": {
+      "description": "Hey NIKI BOT IS ONLINE NOW 💃💗",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
