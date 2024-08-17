@@ -26,7 +26,18 @@ let desc = '
 MADE BY NIKI BOT 💃💗
 '
 
-await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc,{quoted:mek});     
+await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc,{quoted:mek});    
+
+//download audio
+let down = await.fg yta(url)
+let downloadUrl = down.dl_url
+
+
+//send audio massage 
+
+
+await con.sendMessage (from, {audio: {url:downloadUrl}, mimetype:"audio/mpeg"},{quoted:mek})
+       
 }catch(e){
 console.log(e)
 reply('${e}')
