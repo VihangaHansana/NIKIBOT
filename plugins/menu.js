@@ -15,7 +15,7 @@ download: '',
 group: '',
 owner: '',
 convert: '',
-search: '',
+search: ''
 
 
 };
@@ -52,9 +52,11 @@ let madeMenu = '👋 *Hello ${pushname}*
 
   ${main.search}
   
-  POWERED BY NIKI BOT ❤️‍🩹
-await con.sendMessage (from,{text:madeMenu},))
-  '
+ * POWERED BY NIKI BOT ❤️‍🩹*
+
+     '
+await con.sendMessage (from,{img:{url:"https://telegra.ph/file/a6613fc154a69d1ce94d4.jpg"},caption:madeMenu},{quoted:mek})
+
 }catch(e){
 console.log(e);
 reply($'{e}')
