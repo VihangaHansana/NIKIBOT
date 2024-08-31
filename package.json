@@ -4,9 +4,9 @@
   "description": "A WhatsApp bot created by VIHANGA HANSANA",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name MyBot",
-    "stop": "pm2 stop MyBot",
-    "restart": "pm2 restart MyBot"
+    "start": "pm2 start index.js --deep-monitoring --attach --name NIKI_BOT",
+    "stop": "pm2 stop NIKI_BOT",
+    "restart": "pm2 restart NIKI_BOT"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
